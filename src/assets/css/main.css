@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+@import url("../css/toUp.css");
+@import url("../css/inicio.css");
+@import url("../css/acerca.css");
+@import url("../css/contacto.css");
+
+    .whatsapp{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        margin-bottom: 100px;
+        margin-right: 10px;
+        z-index: 3;
+    }
+
+    
