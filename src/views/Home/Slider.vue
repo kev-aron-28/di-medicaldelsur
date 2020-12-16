@@ -3,7 +3,9 @@
         <agile ref="main" :options="options1">
         <div class="slide">
             <div class="img-slider-main">
+                
                 <img src="../../assets/img/slider/imagen1.png" alt="" srcset="">
+            
             </div>
         </div>
         <div class="slide">
@@ -140,7 +142,11 @@ export default {
         ]   
         }
         }
-  }
+
+        
+  },
+
+
 }
 </script>
 
@@ -167,7 +173,6 @@ export default {
         display: flex;
         justify-content: center;
     }
-
 
 
      @media screen and (min-width:320px){

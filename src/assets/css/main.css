@@ -11,13 +11,14 @@
 @import url("../css/acerca.css");
 @import url("../css/contacto.css");
 
-    .whatsapp{
+    .messg-whats{
         position: fixed;
         right: 0;
         bottom: 0;
-        margin-bottom: 100px;
+        margin-bottom: 70px;
         margin-right: 10px;
         z-index: 3;
+        flex-direction: column;
     }
 
     
