@@ -4,7 +4,8 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import {
     faWhatsappSquare,
     faFacebookSquare,
-    faInstagramSquare
+    faInstagramSquare,
+    faYoutubeSquare
   } from "@fortawesome/free-brands-svg-icons";
   
 import { faBars, 
@@ -33,7 +34,8 @@ faArrowLeft,
 faArrowRight,
 faFacebookSquare,
 faInstagramSquare,
-faWhatsappSquare
+faWhatsappSquare,
+faYoutubeSquare
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)

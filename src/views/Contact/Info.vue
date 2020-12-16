@@ -21,16 +21,15 @@
                   <img src="../../assets/img/mail.png" alt="" srcset="">ventas1@dimedicaldelsur.mx
               </div>
               <div class="contact-item">
-                  <img src="../../assets/img/phone.png" alt="telefono" srcset="">5572616849
+                  <img src="../../assets/img/phone.png" alt="telefono" srcset="">5572616849 - 5571606208
               </div>
               <div class="contact-item">
                 <img src="../../assets/img/clock.png" alt="tiempo" srcset="">Lunes - viernes, 9:00 - 18:00
               </div>
               <div class="contact-social">
                   <a href="https://www.facebook.com/Di-medical-del-Sur-107056794344427/" target="_blank"><img src="../../assets/img/facebook.png" alt="logo facebook"></a>
-                  
                   <a href="https://www.instagram.com/dimedicaldelsur/" target="_blank"><img src="../../assets/img/instagram.png" alt="logo instragram"></a>
-                  
+                  <a href="https://www.youtube.com/channel/UCypmZxJDQKJOjlovUh9P1Lg" target="_blank"><img src="../../assets/img/youtube.png" alt="" srcset=""></a>
               </div>
           </div>
       </div>
@@ -124,7 +123,9 @@ form input {
     justify-content:center;
     align-items:center;
 }
-
+.contact-social a {
+    margin-left:5px;
+}
 .information-contact{
     display: flex;
     flex-direction:column;
