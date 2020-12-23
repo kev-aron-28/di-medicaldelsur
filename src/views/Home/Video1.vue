@@ -1,5 +1,5 @@
 <template>
-  <div class="video1-container">
+  <div class="video1-container" v-scroll-reveal.reset="{ delay: 250,  origin: 'left'}">
     <video src="../../assets/video/nuevoAño.mp4" controls></video>
   </div>
 </template>
