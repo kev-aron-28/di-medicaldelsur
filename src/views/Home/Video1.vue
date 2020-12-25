@@ -1,6 +1,6 @@
 <template>
   <div class="video1-container" v-scroll-reveal.reset="{ delay: 250,  origin: 'left'}">
-    <video src="../../assets/video/nuevoAño.mp4" controls></video>
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/SSJSQ7nWM6Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </template>
 
@@ -14,14 +14,9 @@ name:"Video1"
 .video1-container{
     margin-top:120px;    
     width:100%;
-    height:500px;
+    height:520px;
     display:flex;
     justify-content: center;
     align-items:center;
-}
-
-.video1-container video{
-    width:100%;
-    height: 100%;
 }
 </style>
