@@ -3,7 +3,7 @@
         <img-card></img-card>
         <cards></cards>
         <phrase></phrase>
-        <video1></video1>
+        <webinar></webinar>
         <category></category>
         <catalogs></catalogs>
         <flayer-1></flayer-1>
@@ -23,7 +23,7 @@ import Flayer1 from "@/views/Home/Flayer1.vue"
 import Phrase_2 from "@/views/Home/Phrase_2.vue"
 import Phrase_3 from "@/views/Home/Phrase_3.vue"
 import Slider from '../Home/Slider.vue'
-import Video1 from "@/views/Home/Video1.vue"
+import Webinar from "@/views/Home/Webinar.vue"
 export default {
     components:{
         ImgCard,
@@ -35,7 +35,7 @@ export default {
         Phrase_2,
         Phrase_3, 
         Slider,
-        Video1
+        Webinar
     },
 
     data(){

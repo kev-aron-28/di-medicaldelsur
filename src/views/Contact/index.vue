@@ -11,8 +11,8 @@
 <script>
 import ImgContact from "@/views/Contact/ImgContact";
 import Info from "@/views/Contact/Info.vue";
-import Ubication from "@/views/Contact/Ubication"
 import Phrase_1 from "@/views/Contact/Phrase_1"
+import Ubication from "@/views/Contact/Ubication"
 export default {
 name:"Contact",
 components:{
