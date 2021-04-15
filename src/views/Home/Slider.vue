@@ -33,8 +33,24 @@
                 <img src="../../assets/img/slider/imagen6.png" alt="" srcset="">
             </div>
         </div>
-    
-     
+
+        <div class="slide">
+            <div class="img-slider-main">
+                <img src="../../assets/img/slider/imagen7.png" alt="" srcset="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="img-slider-main">
+                <img src="../../assets/img/slider/imagen8.png" alt="" srcset="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="img-slider-main">
+                <img src="../../assets/img/slider/imagen9.png" alt="" srcset="">
+            </div>
+        </div>
     </agile>
    
     <agile ref="thumbnails" :as-nav-for="[$refs.main]" :options="options2" class="slider2">
@@ -66,6 +82,24 @@
         <div class="slide">
             <div class="img-slider" @click="$refs.thumbnails.goTo(5)">
                 <img src="../../assets/img/slider/imagen6.png" alt="" srcset="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="img-slider">
+                <img src="../../assets/img/slider/imagen7.png" alt="" srcset="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="img-slider">
+                <img src="../../assets/img/slider/imagen8.png" alt="" srcset="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="img-slider">
+                <img src="../../assets/img/slider/imagen9.png" alt="" srcset="">
             </div>
         </div>
     </agile>
