@@ -10,17 +10,8 @@
         <div class="catalog">
             <img src="@/assets/img/salter.png" alt="Salter">
         </div>
+        <div class="catalog">
+            <img src="@/assets/img/long.png" alt="LongFian">
+        </div>
     </div>
 </template>
-
-<script>
-export default {
-    data(){
-        return {
-
-        }
-    },
-
-   
-}
-</script>
